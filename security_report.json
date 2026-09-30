@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-12-22T12:59:47.499256",
+  "attack_statistics": {
+    "BENIGN": {
+      "count": 14,
+      "detected": 14
+    },
+    "PortScan": {
+      "count": 3,
+      "detected": 3
+    },
+    "DoS Hulk": {
+      "count": 3,
+      "detected": 3
+    }
+  },
+  "sample_advices": {
+    "BENIGN": "{'base_recommendations': ['【中等置信度】重要处理：', '保持当前安全策略', '继续监控网络活动', '定期更新安全配置', '维护日志记录'], 'context': {'attack_type': 'BENIGN', 'confidence': 0.8325632214546204, 'timestamp': '2025-12-22T12:59:47.467363', 'severity': 'Low', 'top_features': [('Init_Win_bytes_forward', 4.083010673522949), ('Init_Win_bytes_backward', 1.7380598783493042), ('Avg_Bwd_Segment_Size', 1.7202905416488647), ('Bwd_Packet_Length_Mean', 1.7202905416488647), ('Packet_Length_Mean', 1.6128063201904297)], 'description': 'Normal network traffic', 'characteristics': ['Regular communication patterns', 'Expected protocols', 'Normal data flow']}}",
+    "PortScan": "{'base_recommendations': ['【中等置信度】重要处理：', '保持当前安全策略', '继续监控网络活动', '定期更新安全配置', '维护日志记录'], 'context': {'attack_type': 'BENIGN', 'confidence': 0.7974288463592529, 'timestamp': '2025-12-22T12:59:47.480319', 'severity': 'Low', 'top_features': [('PSH_Flag_Count', 1.534571886062622), ('Protocol', 0.7374379634857178), ('ACK_Flag_Count', 0.6794524192810059), ('Min_Packet_Length', 0.5719417929649353), ('Average_Packet_Size', 0.5634409189224243)], 'description': 'Normal network traffic', 'characteristics': ['Regular communication patterns', 'Expected protocols', 'Normal data flow']}}",
+    "DoS Hulk": "{'base_recommendations': ['【中等置信度】重要处理：', '保持当前安全策略', '继续监控网络活动', '定期更新安全配置', '维护日志记录'], 'context': {'attack_type': 'BENIGN', 'confidence': 0.8195520043373108, 'timestamp': '2025-12-22T12:59:47.490286', 'severity': 'Low', 'top_features': [('Bwd_IAT_Std', 5.736117362976074), ('FIN_Flag_Count', 5.2215657234191895), ('Bwd_IAT_Max', 4.610194683074951), ('Fwd_IAT_Std', 3.5514941215515137), ('Idle_Min', 3.2478115558624268)], 'description': 'Normal network traffic', 'characteristics': ['Regular communication patterns', 'Expected protocols', 'Normal data flow']}}"
+  }
+}

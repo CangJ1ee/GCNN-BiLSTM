@@ -1,0 +1,148 @@
+{
+  "analysis_time": "2025-12-22T12:59:47.840650",
+  "total_samples_analyzed": 50,
+  "attack_types_analyzed": [
+    "BENIGN",
+    "DDoS",
+    "DoS GoldenEye",
+    "DoS Hulk",
+    "DoS slowloris",
+    "FTP-Patator",
+    "Heartbleed",
+    "PortScan",
+    "SSH-Patator"
+  ],
+  "feature_importance_by_attack": {
+    "BENIGN": {
+      "sample_count": 607,
+      "top_5_features": [
+        {
+          "feature": "Bwd_Packet_Length_Std",
+          "importance": 0.013540419164361505
+        },
+        {
+          "feature": "Source_Port",
+          "importance": 0.013249035311229762
+        },
+        {
+          "feature": "FIN_Flag_Count",
+          "importance": 0.009925826100679179
+        },
+        {
+          "feature": "Bwd_IAT_Max",
+          "importance": 0.005545146820781102
+        },
+        {
+          "feature": "Fwd_Packet_Length_Mean",
+          "importance": 0.004265599282772115
+        }
+      ]
+    },
+    "DDoS": {
+      "sample_count": 36,
+      "top_5_features": [
+        {
+          "feature": "FIN_Flag_Count",
+          "importance": 0.008111661684175932
+        }
+      ]
+    },
+    "DoS GoldenEye": {
+      "sample_count": 6,
+      "top_5_features": []
+    },
+    "DoS Hulk": {
+      "sample_count": 57,
+      "top_5_features": [
+        {
+          "feature": "FIN_Flag_Count",
+          "importance": 0.016932760489748674
+        }
+      ]
+    },
+    "DoS slowloris": {
+      "sample_count": 3,
+      "top_5_features": [
+        {
+          "feature": "FIN_Flag_Count",
+          "importance": 0.012464132879140196
+        }
+      ]
+    },
+    "FTP-Patator": {
+      "sample_count": 4,
+      "top_5_features": [
+        {
+          "feature": "Source_Port",
+          "importance": 0.010828288867928861
+        },
+        {
+          "feature": "FIN_Flag_Count",
+          "importance": 0.008511270188202764
+        },
+        {
+          "feature": "Bwd_Packet_Length_Std",
+          "importance": 0.007205588590566334
+        },
+        {
+          "feature": "Bwd_IAT_Max",
+          "importance": 0.005668243625299253
+        }
+      ]
+    },
+    "Heartbleed": {
+      "sample_count": 1,
+      "top_5_features": []
+    },
+    "PortScan": {
+      "sample_count": 35,
+      "top_5_features": [
+        {
+          "feature": "Bwd_Packet_Length_Std",
+          "importance": 0.013157961389933831
+        },
+        {
+          "feature": "Source_Port",
+          "importance": 0.009928424198139274
+        },
+        {
+          "feature": "FIN_Flag_Count",
+          "importance": 0.008588451131495511
+        },
+        {
+          "feature": "Bwd_IAT_Max",
+          "importance": 0.005716127464552236
+        },
+        {
+          "feature": "Fwd_IAT_Max",
+          "importance": 0.003501114058593886
+        }
+      ]
+    },
+    "SSH-Patator": {
+      "sample_count": 1,
+      "top_5_features": [
+        {
+          "feature": "FIN_Flag_Count",
+          "importance": 0.013906006138780177
+        },
+        {
+          "feature": "Source_Port",
+          "importance": 0.01040053812378713
+        },
+        {
+          "feature": "Bwd_Packet_Length_Std",
+          "importance": 0.008722973467055885
+        },
+        {
+          "feature": "Bwd_IAT_Max",
+          "importance": 0.006364042363910372
+        },
+        {
+          "feature": "Avg_Fwd_Segment_Size",
+          "importance": 0.004969801107227904
+        }
+      ]
+    }
+  }
+}
